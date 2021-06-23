@@ -4,15 +4,23 @@
 <title>Liste des pizzas</title>
 </head>
 <form action="/send" method="POST"><br>
-    <label for="nom_prs">Nom</label>
+    <label for="nom_prs">Nom</label><br>
     <input type="text" name="nom" id="nom_prs"><br>
-    <label for="prenom_prs">Prénom</label>
+
+    <label for="prenom_prs">Prénom</label><br>
     <input type="text" name="prenom" id="prenom_prs"><br>
+
+    <label for="tel">Téléphone</label><br>
     <input type="tel" name="téléphone"><br>
+
+    <label for="email">Email</label><br>
     <input type="email" name="Email"><br>
+    <label for="contact_souaite">Contact préféré</label><br>
     <select id="contact souhaité" multiple><br>
         <option value="email">Email</option>
         <option value="téléphone">téléphone</option>
     </select>
-    <textarea rows="5" cols="50">Message supplémentaire:</textarea><br>
+
+    <label for="message_sup">Message complémentaire</label><br>
+    <textarea rows="5" cols="50">Message complémentaire:</textarea>
 </form>
