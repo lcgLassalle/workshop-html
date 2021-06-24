@@ -1,0 +1,14 @@
+body{
+    background-color: blue;
+}
+ul{
+    align-items: center;  
+}
+
+.item{
+    background-color: white;
+}
+h1{
+    text-align: center;
+    align-self: center;
+}
