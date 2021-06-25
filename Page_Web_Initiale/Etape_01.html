@@ -115,22 +115,46 @@
                         </div>
                     </div>
                     <!-- Fin formulaire de recherche -->
-                    <div>
-                        <p>Laisser un commentaire :</p>
-                        <form method="post" action="#">
-                            <label for="pseudo">Pseudo : </label><input type="text" name="pseudo" id="pseudo" />
-                            <br />
-                            <label for="message">Message : </label>
-                            <textarea name="memo" rows="5" cols="30">Tapez votre message ici</textarea>
-                            <input type="submit" name="btEnvoyer" value="Envoyer">
-                        </form>
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fa fa-comment"></i> Commentaire
+                        </div>
+                        <div class="card-body">
+                            <form method="post" action="#">
+                                <div class="form-group">
+                                    <label for="pseudo">Pseudo : </label><input class="form-control" type="text"
+                                        name="pseudo" id="pseudo">
+                                    <br />
+                                    <label for="message">Message : </label>
+                                    <textarea class="form-control" name="memo" rows="5"
+                                        cols="30">Tapez votre message ici</textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-primary form-control"> Envoyer</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                    <div>
-                        <p>Très bon tuto, parfait, comme toujours sur ce site Internet au design futuriste. G. MENVU</p>
-                        <p>Site très instructif, c'est devenu pour moi une référence en matière de développement Web. Le
-                            design est
-                            génial. H. CHISMAN</p>
+                    <!-- derniers commentaires -->
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fa fa-comments"></i> derniers commentaires
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <textarea class="form-control" name="memo" rows="5" cols="30">
+                                        Très bon tuto, parfait, comme toujours sur ce site Internet au design futuriste. G. MENVU
+                                    </textarea>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="memo" rows="5" cols="30">
+                                        Site très instructif, c'est devenu pour moi une référence en matière de développement Web. 
+                                        Le design est génial. H. CHISMAN
+                                    </textarea>
+                            </div>
+                        </div>
                     </div>
+                    <!-- Fin de dernier commentaire -->
                 </div>
             </div>
             <!-- Fin de la COLONNE DE DROITE -->
