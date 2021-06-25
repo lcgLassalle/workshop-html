@@ -1,0 +1,9 @@
+.carousel-indicators li{
+    background-color: dimgray;
+}
+.carousel-indicators > .active{
+    background-color: silver;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: silver;
+}
